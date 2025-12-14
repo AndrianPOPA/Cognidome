@@ -20,25 +20,25 @@ const AccountPopover = () => {
       link: "/my-account",
       label: "My Account",
       icon: <User />,
-      isActive: pathname.includes("/my-account"),
+      isActive: pathname?.includes("/my-account") || false,
     },
     {
       link: "/wishlist",
       label: "Wishlist",
       icon: <Heart />,
-      isActive: pathname.includes("/wishlist"),
+      isActive: pathname?.includes("/wishlist") || false,
     },
     {
       link: "/my-orders",
       label: "My Orders",
       icon: <ListOrdered />,
-      isActive: pathname.includes("/my-orders"),
+      isActive: pathname?.includes("/my-orders") || false,
     },
     {
       link: "/help",
       label: "Help",
       icon: <HelpCircle />,
-      isActive: pathname.includes("/help"),
+      isActive: pathname?.includes("/help") || false,
     },
   ];
 
