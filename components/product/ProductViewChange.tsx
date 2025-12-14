@@ -73,7 +73,7 @@ const ProductViewChange = ({
           </Tooltip>
         </TooltipProvider>
       </div>
-      <div className="">
+      <div className="md:hidden">
         <FilterProductsBtn />
       </div>
     </div>
