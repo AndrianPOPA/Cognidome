@@ -1,0 +1,1 @@
+export const brandsData = ['Cognidome','EcoTech','Lumina','Guardian','SecureHome','AutoShade'];
